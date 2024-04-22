@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_mini_project01.py" afterDir="false" />
+    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added Test Mini Project 01.">
+      <change afterPath="$PROJECT_DIR$/src/test_mini_project02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_mini_project01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_mini_project01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,9 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2fT628k8F4ZI3uByY1KT9Nunh1h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,6 +92,19 @@
       <option name="presentableId" value="Default" />
       <updated>1713812512377</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Test Mini Project 01.">
+      <option name="closed" value="true" />
+      <created>1713813585068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713813585069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Test Mini Project 01." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Test Mini Project 01." />
   </component>
 </project>

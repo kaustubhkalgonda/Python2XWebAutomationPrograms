@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 
 
-def test_mini_project():
+def test_mini_project01():
     driver = webdriver.Chrome()
     driver.get("https://katalon-demo-cura.herokuapp.com/")
     driver.find_element(By.ID, "btn-make-appointment").click()
