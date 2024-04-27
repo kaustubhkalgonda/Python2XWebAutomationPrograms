@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added Test Mini Project 04.">
-      <change afterPath="$PROJECT_DIR$/src/test_mini_project05.py" afterDir="false" />
+    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added Test Mini Project 05.">
+      <change afterPath="$PROJECT_DIR$/src/test_actions_scenarios.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_actions_scenarios.test_actions_scenarios.executor": "Run",
     "Python tests.Python tests for test_mini_project.test_mini_project.executor": "Run",
     "Python tests.Python tests for test_mini_project03.test_mini_project03.executor": "Run",
     "Python tests.Python tests for test_mini_project04.test_mini_project04.executor": "Run",
@@ -56,8 +57,8 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_mini_project05.test_mini_project05">
-    <configuration name="Python tests for src.test_mini_project01.test_mini_project" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_actions_scenarios.test_actions_scenarios_02">
+    <configuration name="Python tests for test_actions_scenarios.test_actions_scenarios" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonWebAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +69,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.test_mini_project01.test_mini_project&quot;" />
+      <option name="_new_target" value="&quot;test_actions_scenarios.test_actions_scenarios&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_actions_scenarios.test_actions_scenarios_02" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonWebAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_actions_scenarios.test_actions_scenarios_02&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -119,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_actions_scenarios.test_actions_scenarios_02" />
+        <item itemvalue="Python tests.Python tests for test_actions_scenarios.test_actions_scenarios" />
         <item itemvalue="Python tests.Python tests for test_mini_project05.test_mini_project05" />
         <item itemvalue="Python tests.Python tests for test_mini_project04.test_mini_project04" />
         <item itemvalue="Python tests.Python tests for test_mini_project03.test_mini_project03" />
-        <item itemvalue="Python tests.Python tests for src.test_mini_project01.test_mini_project" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714015600117</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Test Mini Project 05.">
+      <option name="closed" value="true" />
+      <created>1714163280588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714163280588</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +207,7 @@
     <MESSAGE value="Added Test Mini Project 02." />
     <MESSAGE value="Added Test Mini Project 03." />
     <MESSAGE value="Added Test Mini Project 04." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Test Mini Project 04." />
+    <MESSAGE value="Added Test Mini Project 05." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Test Mini Project 05." />
   </component>
 </project>
