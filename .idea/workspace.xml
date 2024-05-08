@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added Test Mini Project 05.">
-      <change afterPath="$PROJECT_DIR$/src/test_actions_scenarios.py" afterDir="false" />
+    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added Test action scenarios.">
+      <change afterPath="$PROJECT_DIR$/src/test_explicit_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_implicit_wait.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kaustubhkalgonda"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kaustubhkalgonda&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kaustubhkalgonda/PythonAPIAutomationFramework.git",
-    "accountId": "9e6e697a-2207-46e6-b06c-04d187e5e38d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kaustubhkalgonda/PythonAPIAutomationFramework.git&quot;,
+    &quot;accountId&quot;: &quot;9e6e697a-2207-46e6-b06c-04d187e5e38d&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2fT628k8F4ZI3uByY1KT9Nunh1h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,15 +50,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_actions_scenarios.test_actions_scenarios.executor": "Run",
+    "Python tests.Python tests for test_actions_scenarios.test_actions_scenarios_02.executor": "Run",
     "Python tests.Python tests for test_mini_project.test_mini_project.executor": "Run",
     "Python tests.Python tests for test_mini_project03.test_mini_project03.executor": "Run",
     "Python tests.Python tests for test_mini_project04.test_mini_project04.executor": "Run",
     "Python tests.Python tests for test_mini_project05.test_mini_project05.executor": "Run",
+    "Python tests.pytest for test_explicit_wait.test_explicit_wait.executor": "Run",
+    "Python tests.pytest for test_implicit_wait.test_implicit_wait.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/kaustubhkalgonda/PycharmProjects/PythonWebAutomation/src"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_actions_scenarios.test_actions_scenarios_02">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_explicit_wait.test_explicit_wait">
     <configuration name="Python tests for test_actions_scenarios.test_actions_scenarios" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonWebAutomation" />
       <option name="ENV_FILES" value="" />
@@ -88,36 +98,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_mini_project03.test_mini_project03" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonWebAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_mini_project03.test_mini_project03&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_mini_project04.test_mini_project04" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonWebAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_mini_project04.test_mini_project04&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_mini_project05.test_mini_project05" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonWebAutomation" />
       <option name="ENV_FILES" value="" />
@@ -133,20 +113,54 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_explicit_wait.test_explicit_wait" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonWebAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_explicit_wait.test_explicit_wait&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_implicit_wait.test_implicit_wait" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonWebAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_implicit_wait.test_implicit_wait&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_explicit_wait.test_explicit_wait" />
+        <item itemvalue="Python tests.pytest for test_implicit_wait.test_implicit_wait" />
         <item itemvalue="Python tests.Python tests for test_actions_scenarios.test_actions_scenarios_02" />
         <item itemvalue="Python tests.Python tests for test_actions_scenarios.test_actions_scenarios" />
         <item itemvalue="Python tests.Python tests for test_mini_project05.test_mini_project05" />
-        <item itemvalue="Python tests.Python tests for test_mini_project04.test_mini_project04" />
-        <item itemvalue="Python tests.Python tests for test_mini_project03.test_mini_project03" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -199,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714163280588</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Test action scenarios.">
+      <option name="closed" value="true" />
+      <created>1714254355307</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714254355307</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +230,7 @@
     <MESSAGE value="Added Test Mini Project 03." />
     <MESSAGE value="Added Test Mini Project 04." />
     <MESSAGE value="Added Test Mini Project 05." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Test Mini Project 05." />
+    <MESSAGE value="Added Test action scenarios." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Test action scenarios." />
   </component>
 </project>
