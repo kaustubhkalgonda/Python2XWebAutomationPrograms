@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time, allure, pytest, os
 
-file_path = os.getcwd() + "/vwo_login_data.xlsx"
+file_path = os.getcwd() + "/src/vwo_login_data.xlsx"
 
 
 def read_credentials_from_file(file_path):

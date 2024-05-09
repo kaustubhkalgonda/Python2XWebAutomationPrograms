@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added fluent wait test.">
-      <change afterPath="$PROJECT_DIR$/src/test_data_driven_xlsx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vwo_login_data.xlsx" afterDir="false" />
+    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added data driven test.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_data_driven_xlsx.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_data_driven_xlsx.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
     "Python tests.Python tests for test_mini_project03.test_mini_project03.executor": "Run",
     "Python tests.Python tests for test_mini_project04.test_mini_project04.executor": "Run",
     "Python tests.Python tests for test_mini_project05.test_mini_project05.executor": "Run",
+    "Python tests.pytest for test_data_driven_xlsx.test_vwo_login.executor": "Run",
     "Python tests.pytest for test_explicit_wait.test_explicit_wait.executor": "Run",
     "Python tests.pytest for test_fluent_wait.test_fluent_wait.executor": "Run",
     "Python tests.pytest for test_implicit_wait.test_implicit_wait.executor": "Run",
@@ -245,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715218908962</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added data driven test.">
+      <option name="closed" value="true" />
+      <created>1715235974456</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715235974456</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -257,6 +265,7 @@
     <MESSAGE value="Added Test action scenarios." />
     <MESSAGE value="Added implicit and explicit waits." />
     <MESSAGE value="Added fluent wait test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added fluent wait test." />
+    <MESSAGE value="Added data driven test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added data driven test." />
   </component>
 </project>
