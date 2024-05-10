@@ -44,6 +44,6 @@ def vwo_login(username, password):
     driver.find_element(By.ID, "js-login-btn").click()
 
     element = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable((By.ID, "js-notification-box-msg")))
+        EC.presence_of_element_located((By.ID, "js-notification-box-msg")))
     assert element.is_displayed()
     allure.attach(driver.get_screenshot_as_png(), name="invalid-login", attachment_type=AttachmentType.PNG)
