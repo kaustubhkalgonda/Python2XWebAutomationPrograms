@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added data driven test.">
-      <change afterPath="$PROJECT_DIR$/src/test_mini_project06.py" afterDir="false" />
+    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added mini project 06.">
+      <change afterPath="$PROJECT_DIR$/src/test_svg_elements.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_data_driven_xlsx.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_data_driven_xlsx.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,7 @@
     "Python tests.pytest for test_fluent_wait.test_fluent_wait.executor": "Run",
     "Python tests.pytest for test_implicit_wait.test_implicit_wait.executor": "Run",
     "Python tests.pytest for test_mini_project06.test_mini_project06.executor": "Run",
+    "Python tests.pytest for test_svg_elements.test_svg_elements.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/kaustubhkalgonda/PycharmProjects/PythonWebAutomation/src"
@@ -74,7 +74,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_mini_project06.test_mini_project06">
+  <component name="RunManager" selected="Python tests.pytest for test_svg_elements.test_svg_elements">
     <configuration name="pytest for test_data_driven_xlsx.test_vwo_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonWebAutomation" />
       <option name="ENV_FILES" value="" />
@@ -126,23 +126,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_implicit_wait.test_implicit_wait" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="PythonWebAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_implicit_wait.test_implicit_wait&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_mini_project06.test_mini_project06" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonWebAutomation" />
       <option name="ENV_FILES" value="" />
@@ -160,13 +143,30 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_svg_elements.test_svg_elements" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonWebAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_svg_elements.test_svg_elements&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_svg_elements.test_svg_elements" />
         <item itemvalue="Python tests.pytest for test_mini_project06.test_mini_project06" />
         <item itemvalue="Python tests.pytest for test_data_driven_xlsx.test_vwo_login" />
         <item itemvalue="Python tests.pytest for test_fluent_wait.test_fluent_wait" />
         <item itemvalue="Python tests.pytest for test_explicit_wait.test_explicit_wait" />
-        <item itemvalue="Python tests.pytest for test_implicit_wait.test_implicit_wait" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715236297487</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added mini project 06.">
+      <option name="closed" value="true" />
+      <created>1715309497106</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715309497106</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,7 +299,8 @@
     <MESSAGE value="Added implicit and explicit waits." />
     <MESSAGE value="Added fluent wait test." />
     <MESSAGE value="Added data driven test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added data driven test." />
+    <MESSAGE value="Added mini project 06." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mini project 06." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
