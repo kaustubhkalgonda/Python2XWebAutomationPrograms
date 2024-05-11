@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added svg element test case.">
-      <change afterPath="$PROJECT_DIR$/src/test_javascript_exec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_shadow_dom.py" afterDir="false" />
+    <list default="true" id="1b750fda-0947-4f33-9e8c-dcc66ac432a2" name="Changes" comment="Added shadow dom and js exec test case.">
+      <change afterPath="$PROJECT_DIR$/src/test_mini_project07.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +61,13 @@
     "Python tests.pytest for test_implicit_wait.test_implicit_wait.executor": "Run",
     "Python tests.pytest for test_javascript_exec.test_javascript_exec.executor": "Run",
     "Python tests.pytest for test_mini_project06.test_mini_project06.executor": "Run",
+    "Python tests.pytest for test_mini_project07.test_mini_project07.executor": "Run",
     "Python tests.pytest for test_shadow_dom.test_shadow_dom.executor": "Run",
     "Python tests.pytest for test_svg_elements.test_svg_elements.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/kaustubhkalgonda/PycharmProjects/PythonWebAutomation/src"
+    "last_opened_file_path": "/Users/kaustubhkalgonda/PycharmProjects/PythonWebAutomation/src",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,24 +78,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_shadow_dom.test_shadow_dom">
-    <configuration name="pytest for test_data_driven_xlsx.test_vwo_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="PythonWebAutomation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_data_driven_xlsx.test_vwo_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_mini_project07.test_mini_project07">
     <configuration name="pytest for test_javascript_exec.test_javascript_exec" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonWebAutomation" />
       <option name="ENV_FILES" value="" />
@@ -126,6 +110,23 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_mini_project06.test_mini_project06&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_mini_project07.test_mini_project07" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PythonWebAutomation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_mini_project07.test_mini_project07&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_mini_project07.test_mini_project07" />
         <item itemvalue="Python tests.pytest for test_shadow_dom.test_shadow_dom" />
         <item itemvalue="Python tests.pytest for test_javascript_exec.test_javascript_exec" />
         <item itemvalue="Python tests.pytest for test_svg_elements.test_svg_elements" />
         <item itemvalue="Python tests.pytest for test_mini_project06.test_mini_project06" />
-        <item itemvalue="Python tests.pytest for test_data_driven_xlsx.test_vwo_login" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715378708425</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added shadow dom and js exec test case.">
+      <option name="closed" value="true" />
+      <created>1715382254612</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715382254612</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +321,8 @@
     <MESSAGE value="Added data driven test." />
     <MESSAGE value="Added mini project 06." />
     <MESSAGE value="Added svg element test case." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added svg element test case." />
+    <MESSAGE value="Added shadow dom and js exec test case." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added shadow dom and js exec test case." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
